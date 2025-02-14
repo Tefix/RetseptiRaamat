@@ -158,3 +158,13 @@ end;
 
 exec Addhind @retsepti_hind= 100, @retsept_id= 1
 select * from hind
+
+
+create procedure delete_hind
+@deleteId int
+as
+begin
+delete from hind where hind_id=@deleteId;
+end;
+
+exec delete_hind 5
