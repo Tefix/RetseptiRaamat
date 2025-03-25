@@ -1,5 +1,3 @@
-create database RetseptiRaamat
-use RetseptiRaamat
 
 create table kasutaja(
 kasutaja_id int auto_incrament,
