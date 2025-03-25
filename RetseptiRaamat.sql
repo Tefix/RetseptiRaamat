@@ -2,7 +2,7 @@ create database RetseptiRaamat
 use RetseptiRaamat
 
 create table kasutaja(
-kasutaja_id int primary key identity(1,1),
+kasutaja_id int auto_incrament,
 eesnimi varchar(50),
 perenimi varchar(50) not null,
 email varchar (150));
